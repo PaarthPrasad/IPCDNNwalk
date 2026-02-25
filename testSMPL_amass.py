@@ -1,5 +1,6 @@
 import os,sys, pdb, math, random, copy 
-from libcalab_ogre3d import RE, m, lua, control
+from libcalab import m, lua, control
+import media.rendermodule_ogre as RE
 import numpy as np
 
 datasetRoot=RE.path('../../d/sample_SAMP') # RE.path returns pathlib.Path (normalized)
